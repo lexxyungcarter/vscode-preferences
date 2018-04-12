@@ -2,7 +2,7 @@
 ## About
 Microsoft Visual Studio Code is a revolutionary text editor that has come a long way into surprising every developer out there with its beauty, versatility, performance, and well, it's behind Microsoft!
 
-So, this are my user preferences for the editor configuration
+So, these are my user preferences for the editor's configuration
 ```json
 
 {
@@ -38,7 +38,6 @@ So, this are my user preferences for the editor configuration
         "suppressShowKeyBindingsNotice": true
     },
     "php.suggest.basic": false,
-    "editor.fontFamily": "'Fira Code', 'Roboto Mono for Powerline'",
     "editor.fontLigatures": true,
     "editor.rulers": [
         80, 120
@@ -67,8 +66,12 @@ So, this are my user preferences for the editor configuration
 - Settings Sync
 - Sublime Text Keymap
 - vscode-icons
+
+When developing Vue Apps
 - Vetur
 - Vetur E
+
+Plus Other extensions which are disabled by default unless developing on the exact platform e.g Python,C#,C++, and Ruby.
 
 ## Contribution
 Should you wish to contribute to this list, feel free to fork, edit, and make a pull request.
