@@ -43,6 +43,7 @@ So, these are my user preferences for the editor's configuration
         80, 120
     ],
     "editor.renderLineHighlight": "all",
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
     "files.trimTrailingWhitespace": true,
     "window.menuBarVisibility": "toggle",
     "workbench.colorCustomizations": {
