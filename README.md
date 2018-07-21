@@ -24,7 +24,11 @@ So, these are my user preferences for the editor's configuration
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
     "emmet.triggerExpansionOnTab": true,
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Monokai",
+    "editor.lineHeight": 24,
+    "editor.fontFamily": "'FuraCode Nerd Font', 'Fira Code', 'Operator Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "editor.fontSize": 12,
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "window.zoomLevel": 0,
     "gitlens.advanced.messages": {
@@ -66,6 +70,9 @@ So, these are my user preferences for the editor's configuration
 - Settings Sync
 - Sublime Text Keymap
 - vscode-icons
+- Material Icon Theme
+- Material Theme
+- Space Inside Braces
 
 When developing Vue Apps
 - Vetur
