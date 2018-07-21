@@ -25,11 +25,13 @@ So, these are my user preferences for the editor's configuration
     "editor.formatOnPaste": true,
     "emmet.triggerExpansionOnTab": true,
     "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "editor.lineHeight": 24,
     "editor.fontFamily": "'FuraCode Nerd Font', 'Fira Code', 'Operator Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "editor.fontSize": 12,
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "all",
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
     "window.zoomLevel": 0,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
@@ -79,6 +81,13 @@ When developing Vue Apps
 - Vetur E
 
 Plus Other extensions which are disabled by default unless developing on the exact platform e.g Python,C#,C++, and Ruby.
+
+## NB
+- If you prefer not to copy ` $ ` when selecting variable names, don't include this part in your preferences
+```json
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+```
+- Read more about **Nerd Fonts** [here](https://nerdfonts.com)
 
 ## Contribution
 Should you wish to contribute to this list, feel free to fork, edit, and make a pull request.
